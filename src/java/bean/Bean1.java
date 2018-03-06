@@ -22,6 +22,7 @@ public class Bean1 implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String oussama1;
 
     public Long getId() {
         return id;
